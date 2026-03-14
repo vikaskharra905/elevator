@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="elevator_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="elevator_controller" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,810.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="7,078.001 ns"></ZoomEndTime>
+      <Cursor1Time time="6,450.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="279"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/elevator_controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/emergency_stop" type="logic">
+      <obj_property name="ElementShortName">emergency_stop</obj_property>
+      <obj_property name="ObjectShortName">emergency_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/req" type="array">
+      <obj_property name="ElementShortName">req[3:0]</obj_property>
+      <obj_property name="ObjectShortName">req[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/current_floor" type="array">
+      <obj_property name="ElementShortName">current_floor[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_floor[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/door_open" type="logic">
+      <obj_property name="ElementShortName">door_open</obj_property>
+      <obj_property name="ObjectShortName">door_open</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/moving_up" type="logic">
+      <obj_property name="ElementShortName">moving_up</obj_property>
+      <obj_property name="ObjectShortName">moving_up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/moving_down" type="logic">
+      <obj_property name="ElementShortName">moving_down</obj_property>
+      <obj_property name="ObjectShortName">moving_down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/alarm" type="logic">
+      <obj_property name="ElementShortName">alarm</obj_property>
+      <obj_property name="ObjectShortName">alarm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/UP" type="array">
+      <obj_property name="ElementShortName">UP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/DOWN" type="array">
+      <obj_property name="ElementShortName">DOWN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DOWN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/OPEN_DOOR" type="array">
+      <obj_property name="ElementShortName">OPEN_DOOR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">OPEN_DOOR[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/elevator_controller/EMERGENCY" type="array">
+      <obj_property name="ElementShortName">EMERGENCY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EMERGENCY[2:0]</obj_property>
+   </wvobject>
+</wave_config>
